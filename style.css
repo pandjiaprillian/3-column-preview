@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(57, 155, 122);
+}
+
+.container {
+    width: 50rem;
+    margin: 4rem auto;
+}
+
+main {
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+main .car {
+    padding: 2.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+
+main .car img {
+    width: 3rem;
+}
+
+main .car h3 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+main .car p {
+    line-height: 1.3rem;
+}
+
+main .car button {
+    width: 7rem;
+    margin-top: 0.4rem;
+    padding: 0.5rem;
+    background-color: #fff;
+    border-radius: 1.3rem;
+    border: 0.2rem solid #fff;
+}
+
+main .car button:hover {
+    cursor: pointer;
+    background-color: transparent;
+    color: #fff;
+}
+
+main .sedans {
+    background-color: #E28525;
+}
+
+main .sedans button {
+    color: #E28525;
+}
+
+main .suvs {
+    background-color: #01666D;
+}
+
+main .suvs button {
+    color: #01666D;
+}
+
+main .luxury {
+    background-color: #00403F;
+}
+
+main .luxury button {
+    color: #00403F;
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 90%;
+        margin: 1rem auto;
+    }
+
+    main {
+        grid-template-columns: 1fr;
+    }
+
+    main .car {
+        padding: 3rem;
+    }
+}
