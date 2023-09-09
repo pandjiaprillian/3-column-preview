@@ -1,4 +1,4 @@
-# 3-column-preview.github.io
+# 3-column-preview
 Slicing design from Frontend Mentor-[3-column-preview-card](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-/hub)
 
 Using HTML and CSS
@@ -10,6 +10,6 @@ Using HTML and CSS
 ![image](https://github.com/pandjiaprillian/3-column-preview.github.io/assets/54461403/71c51217-9da3-485e-bb01-ef4a718324c3)
 
 ### Live Website
-[3-column-preview.github.io]
+[3-column-preview](https://pandjiaprillian.github.io/3-column-preview/)
 
 #### Thank You!!!
